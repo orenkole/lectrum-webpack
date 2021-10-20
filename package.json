@@ -1,0 +1,23 @@
+{
+  "name": "webpack_lectrum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development --devtool=false --open",
+    "serve": "serve \"./dist\" -s"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "3.2.0",
+    "webpack-cli": "3.2.3",
+    "webpack": "4.29.1",
+    "serve": "10.1.1"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0"
+  }
+}
